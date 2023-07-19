@@ -49,6 +49,7 @@ body {
 	flex-grow: 1;
 	overflow: scroll;
 
+	border: 0;
 	background: rgb(168,149,109);
 	background: linear-gradient(180deg, rgba(168,149,109,1) 0%, rgba(194,178,146,1) 50%, rgba(194,210,198,1) 100%); 
 }
