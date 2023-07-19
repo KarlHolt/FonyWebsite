@@ -78,7 +78,7 @@ body {
 
 }
 
-.selected {
+#selected {
 	color: #593e12;
 
 	background: rgb(194,210,198);
