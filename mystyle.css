@@ -40,6 +40,8 @@ body {
 }
 
 .fan {
+	user-select: none;
+	cursor: pointer;
 	font-size: 24px;
 	padding: 5px;
 	color: #2f210a;
