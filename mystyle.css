@@ -3,9 +3,18 @@ body {
 	width: 100vw;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
+	
+	display: flex;
+	flex-direction: column;
 }
 
 #header {
+	overflow:hidden;
+
+	display: flex;
+	flex-grow: 0;
+
 	height: fit-content;
 
 	background-color: #a8956d;
@@ -37,15 +46,15 @@ body {
 }
 
 #main {
-	min-height: 100px;
-	height: fit-content;
+	flex-grow: 1;
+	overflow: scroll;
 
 	background: rgb(168,149,109);
-	background: linear-gradient(180deg, rgba(168,149,109,1) 0%, rgba(194,178,146,1) 70%, rgba(194,210,198,1) 100%); 
+	background: linear-gradient(180deg, rgba(168,149,109,1) 0%, rgba(194,178,146,1) 50%, rgba(194,210,198,1) 100%); 
 }
 
 #footer {
-	min-height: 50px;
+	overflow:hidden;
 	height: fit-content;
 	background-color: #c2d2c6;
 	justify-content: space-between;
