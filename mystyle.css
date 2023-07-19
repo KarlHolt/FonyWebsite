@@ -1,65 +1,76 @@
 body {
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
+	height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
 }
 
 #header {
-    height: fit-content;
+	height: fit-content;
 
-    background: rgb(153,136,103);
-    background: linear-gradient(0deg, rgba(153,136,103,1) 26%, rgba(189,173,143,1) 59%, rgba(227,223,215,1) 100%);
+	background-color: #a8956d;
 
-    justify-content: space-between;
-    column-gap: 20px;
+	justify-content: space-between;
+	column-gap: 20px;
+
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-image: radial-gradient(rgb(0, 0, 0), rgb(136, 121, 88)) 1;
 }
 
 #name {
-    font-size: 24px;
-    padding: 5px;
-    color: #2f210a;
+	font-size: 24px;
+	padding: 5px;
+	color: #2f210a;
 }
 
 #fans {
-    justify-content: flex-end;
-    flex-direction: row;
-    display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	display: flex;
 }
 
 .fan {
-    font-size: 24px;
-    padding: 5px;
-    color: #2f210a;
+	font-size: 24px;
+	padding: 5px;
+	color: #2f210a;
 }
 
 #main {
-    min-height: 100px;
-    height: fit-content;
-    background-color: yellow;
+	min-height: 100px;
+	height: fit-content;
+
+	background: rgb(168,149,109);
+	background: linear-gradient(180deg, rgba(168,149,109,1) 0%, rgba(194,178,146,1) 70%, rgba(194,210,198,1) 100%); 
 }
 
 #footer {
-    min-height: 50px;
-    height: fit-content;
-    background-color: red;
-    justify-content: space-between;
-    align-items: center;
+	min-height: 50px;
+	height: fit-content;
+	background-color: #c2d2c6;
+	justify-content: space-between;
+	align-items: center;
+
+	border-top-style: solid;
+	border-width: 2px;
+	border-image: radial-gradient(rgb(0, 0, 0), rgb(179, 180, 179)) 1;
 }
 
 .in_the_foot {
-    padding: 5px;
+	padding: 5px;
 }
 
 .top_level{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	width: 100%;
 
 }
 
 .selected {
-    background: rgb(168,149,109);
-    background: linear-gradient(0deg, rgba(168,149,109,1) 26%, rgba(194,178,146,1) 59%, rgba(247,242,232,1) 100%);
+	color: #593e12;
+
+	background: rgb(194,210,198);
+	background: radial-gradient(closest-side, rgba(194,210,198,1) 0%, rgba(168,149,109,1) 100%);
 }
