@@ -47,6 +47,10 @@ body {
 	color: #2f210a;
 }
 
+#dropdown {
+	width: 60px;
+}
+
 #main {
 	flex-grow: 1;
 	overflow: scroll;

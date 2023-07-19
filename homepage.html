@@ -5,13 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="mystyle.css">
 	<title>Homepage</title>
-	<script src="basic_funtionality.js"></script> 
 </head>
-<body>
+<body onclick="delete_menu()">
 	<div id="header" class="top_level">
 		<div id="name">
 			Karlimmanuelholt.com
 		</div>
+
+		<div onclick="dropdown_menu()" id="dropdown" class="fan"><<<</div>
 
 		<div id="fans">
 			<div onclick="select(this)" id="selected" class="fan">hello world</div>
@@ -32,4 +33,5 @@
 		</div>
 	</div>
 </body>
+<script src="basic_funtionality.js"></script> 
 </html>
