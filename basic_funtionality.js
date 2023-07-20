@@ -2,15 +2,15 @@ function select(fan){
 	document.getElementById("selected").id = "";
 	fan.id = "selected";
 
-	main = document.getElementById("main");
-	
+	main = document.getElementById("main");	
 	main.src =  fan.innerHTML.replaceAll(" ", "")+'.html';
 }
+document.getElementById("main").src="helloworld.html";	
 
 fucker = 2;
 big_winow = false;
 function resizing_header() {
-	if(window.innerWidth < 750){
+	if(window.innerWidth < 760){
 		document.getElementById("dropdown").style.display = "flex";
 		document.getElementById("fans").style.display = "none";
 		big_winow = false;
@@ -28,7 +28,7 @@ function dropdown_menu() {
 	the_menu.style.position = "absolute";
 	the_menu.style.top = 0;
 	the_menu.style.right = 0;
-	the_menu.style.backgroundColor = "#bbac8d";
+	the_menu.style.backgroundColor = "#a8956c";
 
 	the_menu.style.borderWidth = "2px";
 	the_menu.style.borderLeft = "solid";

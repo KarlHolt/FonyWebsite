@@ -17,7 +17,7 @@ body {
 
 	height: fit-content;
 
-	background-color: #a8956d;
+	background-color: #8e7b54;
 
 	justify-content: space-between;
 	column-gap: 20px;
@@ -63,7 +63,7 @@ body {
 #footer {
 	overflow:hidden;
 	height: fit-content;
-	background-color: #c2d2c6;
+	background-color: #d1ddd4;
 	justify-content: space-between;
 	align-items: center;
 

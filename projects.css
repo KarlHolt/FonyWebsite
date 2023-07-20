@@ -1,0 +1,44 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+}
+
+#project_display {
+	padding: 2vh 3vw;
+}
+
+#viewing_mode {
+	display: none;
+	flex-direction: row;
+	height: 100%;
+	width: 100%;
+}
+
+#side_bar {
+	display: flex;
+	min-width: 50px;
+	max-width: fit-content;
+	flex-grow: 0;
+	margin: 0;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	flex-direction: column;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#pdf_viewer {
+	display: flex;
+	flex-grow: 1;
+}
+
+.project_title {
+	cursor: pointer;
+}

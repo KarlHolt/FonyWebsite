@@ -5,9 +5,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Projects</title>
 	<link rel="stylesheet" href="frame.css">
+	<link rel="stylesheet" href="projects.css">
 </head>
 <body>
-	<h1>Project Collection</h1>
-	<p>So far… Nothing.</p>
+	<div id="project_display">
+		<h1>Project Collection</h1>
+	</div>
+
+	<div id="viewing_mode">
+		<div id="side_bar"></div>
+		<object id="pdf_viewer" data="P6.pdf" type="application/pdf">
+			<p>Unable to display PDF file. <a id="fail_to_open" href="P6.pdf">Download</a> instead.</p>
+		</object>
+	</div>
 </body>
+<script src="projects.js"></script>
 </html>
