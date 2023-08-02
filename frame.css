@@ -36,5 +36,10 @@ ul {
 }
 
 li {
+	width: 100%;
+	font-size: 20px;
+	align-content: center;
 	color: #6e441b;
+	height: fit-content;
+	margin-bottom: 0;
 }
