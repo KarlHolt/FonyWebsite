@@ -9,17 +9,28 @@
 <body>
 	<h1>Who is this fuckwit</h1>
 	<h2>Stats</h2>
-	<p>I am about <span id="age">770770770</span> seconds old. </p>
-	<h2>Experience</h2>
-	<p>I've a bachelor in Computer Science from Aalborg University, and doing my master at Aarhus University, also in CS. 
-		Between the two I highly prefer Aalborg University's structure.<br>
+	<p>I am about <span id="ageseconds">770770770</span> seconds old. Roughly equivivalent to <span id="ageyears">24</span> years.</p>
+	<p>I've Idiopathic hypersomnia, diagnosed in the fall of 2023. This desease has lead to multiple severe depperessive periods, 
+		before I got it diagnosed. The desease have resulted in months where I haven't been able to work at all.</p>
+	<h2>Opinions</h2>
+	<p>
+		<ul>
+			<li><strong>Tabs vs spaces</strong>: Tabs - Can be set to be user specific, I like to have 2 spaces for each tab. Easier to keep track of.</li>
+			<li><strong>Favourite Programming languages</strong>: C, Prolog and Python.</li>
+		</ul>
 	</p>
+	<h2>Experience</h2>
+	<h3>Master Student in Computer Science at Aarhus University</h3>
+	<p class="date">From september 2022 to January 2025</p>
+	<h3>Bachelor Student in Computer Science at Aalborg University</h3>
+	<p class="date">From september 2019 to Juli 2022</p>
 </body>
 <script>
 	let birth = new Date("1999-02-14T23:56:00");
 	let now = new Date();
+	document.getElementById("ageyears").innerHTML = now.getFullYear() - birth.getFullYear()
 	let age = Math.round((now.getTime() - birth.getTime()) / 1000);
-	document.getElementById("age").innerHTML = ++age;
-	window.setInterval(() => {document.getElementById("age").innerHTML = ++age}, 1000);
+	document.getElementById("ageseconds").innerHTML = ++age;
+	window.setInterval(() => {document.getElementById("ageseconds").innerHTML = ++age}, 1000);
 </script>
 </html>
